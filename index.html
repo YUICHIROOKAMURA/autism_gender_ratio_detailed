@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自閉症の男女比の真実 - 276万人・35年間の追跡研究が明かす衝撃的事実</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', 'Segoe UI', Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #1f2937;
+            background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ヘッダー */
+        .header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 50%, #3b82f6 100%);
+            color: white;
+            border-radius: 0 0 40px 40px;
+            margin-bottom: 60px;
+            box-shadow: 0 20px 50px rgba(15, 23, 42, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(249, 115, 22, 0.2) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-icon {
+            font-size: 72px;
+            margin-bottom: 25px;
+            opacity: 0.95;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .header h1 {
+            font-size: 2.4em;
+            font-weight: 700;
+            margin-bottom: 25px;
+            line-height: 1.3;
+        }
+
+        .header .tagline {
+            font-size: 1.3em;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            font-weight: 500;
+        }
+
+        .header .study-info {
+            font-size: 1em;
+            opacity: 0.85;
+            font-style: italic;
+        }
+
+        /* セクション */
+        .section {
+            background: white;
+            padding: 60px 45px;
+            margin-bottom: 45px;
+            border-radius: 20px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid transparent;
+        }
+
+        .section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .section.blue-accent {
+            border-left-color: #3b82f6;
+        }
+
+        .section.orange-accent {
+            border-left-color: #f97316;
+        }
+
+        .section.purple-accent {
+            border-left-color: #a855f7;
+        }
+
+        .section.green-accent {
+            border-left-color: #10b981;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 3px solid #e5e7eb;
+        }
+
+        .section-icon {
+            font-size: 40px;
+            margin-right: 20px;
+            min-width: 55px;
+            text-align: center;
+        }
+
+        .section-icon.blue { color: #2563eb; }
+        .section-icon.orange { color: #f97316; }
+        .section-icon.purple { color: #a855f7; }
+        .section-icon.green { color: #10b981; }
+
+        .section-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .section-subtitle {
+            font-size: 1.3em;
+            color: #64748b;
+            margin: 30px 0 20px;
+            font-weight: 600;
+            padding-left: 20px;
+            border-left: 4px solid #3b82f6;
+        }
+
+        /* ショッキングな統計ボックス */
+        .shocking-stat {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            padding: 45px;
+            border-radius: 20px;
+            border: 3px solid #dc2626;
+            margin: 40px 0;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(220, 38, 38, 0.2);
+        }
+
+        .shocking-stat .number {
+            font-size: 4em;
+            font-weight: 900;
+            color: #991b1b;
+            display: block;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .shocking-stat .label {
+            font-size: 1.5em;
+            color: #7f1d1d;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .shocking-stat .description {
+            font-size: 1.1em;
+            color: #78350f;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.9;
+        }
+
+        /* ハイライトボックス */
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 5px solid #2563eb;
+            margin: 35px 0;
+            box-shadow: 0 4px 20px rgba(37, 99, 235, 0.15);
+        }
+
+        .highlight-box h3 {
+            color: #1e40af;
+            font-size: 1.4em;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .highlight-box h3 i {
+            margin-right: 12px;
+            font-size: 1.3em;
+        }
+
+        /* 問題提起ボックス */
+        .problem-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 5px solid #f59e0b;
+            margin: 35px 0;
+        }
+
+        .problem-box h3 {
+            color: #92400e;
+            font-size: 1.4em;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .problem-box h3 i {
+            margin-right: 12px;
+            color: #f59e0b;
+        }
+
+        /* 3段階の変化 */
+        .three-phases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .phase-card {
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid #3b82f6;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .phase-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #3b82f6 0%, #f97316 100%);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease;
+        }
+
+        .phase-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .phase-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .phase-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        }
+
+        .phase-card.phase-2 .phase-number {
+            background: linear-gradient(135deg, #f97316, #ea580c);
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+        }
+
+        .phase-card.phase-3 .phase-number {
+            background: linear-gradient(135deg, #10b981, #059669);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .phase-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 15px;
+        }
+
+        .phase-age {
+            font-size: 1.1em;
+            color: #64748b;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .phase-ratio {
+            font-size: 2em;
+            font-weight: 900;
+            color: #2563eb;
+            margin: 20px 0;
+            display: block;
+        }
+
+        .phase-card.phase-2 .phase-ratio {
+            color: #f97316;
+        }
+
+        .phase-card.phase-3 .phase-ratio {
+            color: #10b981;
+        }
+
+        /* データビジュアライゼーション */
+        .data-viz {
+            background: #f8fafc;
+            padding: 45px;
+            border-radius: 20px;
+            margin: 40px 0;
+            border: 2px solid #e5e7eb;
+        }
+
+        .data-viz-title {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .data-viz-title i {
+            margin-right: 12px;
+        }
+
+        /* グラフ風の表現 */
+        .age-chart {
+            margin: 40px 0;
+        }
+
+        .age-group {
+            margin-bottom: 35px;
+        }
+
+        .age-label {
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .age-label .ratio-badge {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+        }
+
+        .bar-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .bar-row-label {
+            min-width: 60px;
+            font-weight: 600;
+            color: #64748b;
+            font-size: 0.95em;
+        }
+
+        .bar {
+            height: 45px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            padding: 0 18px;
+            font-weight: 700;
+            color: white;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .bar:hover::before {
+            left: 100%;
+        }
+
+        .bar:hover {
+            filter: brightness(1.1);
+            transform: scaleX(1.02);
+            transform-origin: left;
+        }
+
+        .bar-male {
+            background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+            box-shadow: 0 3px 12px rgba(59, 130, 246, 0.3);
+        }
+
+        .bar-female {
+            background: linear-gradient(90deg, #f97316 0%, #fb923c 100%);
+            box-shadow: 0 3px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        /* 研究デザインの図解 */
+        .study-design {
+            background: linear-gradient(135deg, #f8fafc 0%, #e5e7eb 100%);
+            padding: 45px;
+            border-radius: 20px;
+            margin: 40px 0;
+            border: 3px solid #cbd5e1;
+        }
+
+        .study-stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .study-stat {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .study-stat:hover {
+            transform: translateY(-5px);
+        }
+
+        .study-stat-number {
+            font-size: 2.5em;
+            font-weight: 900;
+            color: #2563eb;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .study-stat-label {
+            font-size: 1em;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        /* アコーディオン */
+        .accordion {
+            margin: 30px 0;
+        }
+
+        .accordion-item {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            margin-bottom: 18px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-item:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.1);
+        }
+
+        .accordion-header {
+            padding: 25px;
+            cursor: pointer;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+            transition: background 0.3s ease;
+        }
+
+        .accordion-header:hover {
+            background: #eff6ff;
+        }
+
+        .accordion-header h4 {
+            margin: 0;
+            color: #1e40af;
+            font-size: 1.15em;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        .accordion-header h4 i {
+            margin-right: 12px;
+            color: #3b82f6;
+            font-size: 1.2em;
+        }
+
+        .accordion-icon {
+            font-size: 1.2em;
+            color: #3b82f6;
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 25px;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 2000px;
+            padding: 25px;
+        }
+
+        .accordion-item.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        /* ツールチップ */
+        .tooltip-term {
+            position: relative;
+            display: inline-block;
+            border-bottom: 2px dotted #3b82f6;
+            color: #2563eb;
+            cursor: help;
+            font-weight: 600;
+        }
+
+        .tooltip-text {
+            visibility: hidden;
+            width: 320px;
+            background-color: #1e40af;
+            color: white;
+            text-align: left;
+            border-radius: 10px;
+            padding: 15px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -160px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.9em;
+            font-weight: normal;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            line-height: 1.6;
+        }
+
+        .tooltip-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -8px;
+            border-width: 8px;
+            border-style: solid;
+            border-color: #1e40af transparent transparent transparent;
+        }
+
+        .tooltip-term:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* タイムライン */
+        .timeline {
+            position: relative;
+            padding: 50px 0;
+            margin: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, #3b82f6 0%, #f97316 50%, #10b981 100%);
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            padding: 0 50px;
+        }
+
+        .timeline-item:nth-child(odd) {
+            text-align: right;
+            padding-right: calc(50% + 70px);
+        }
+
+        .timeline-item:nth-child(even) {
+            text-align: left;
+            padding-left: calc(50% + 70px);
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 15px;
+            width: 24px;
+            height: 24px;
+            background: white;
+            border: 5px solid #3b82f6;
+            border-radius: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.15);
+            z-index: 1;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+            border: 2px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+            border-color: #3b82f6;
+        }
+
+        .timeline-year {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        /* 比較グリッド */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 35px 0;
+        }
+
+        .comparison-card {
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            border: 2px solid #e5e7eb;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .comparison-card::after {
+            content: '\f054';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 25px;
+            top: 30px;
+            color: #3b82f6;
+            font-size: 1.2em;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .comparison-card:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 8px 30px rgba(59, 130, 246, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .comparison-card:hover::after {
+            opacity: 1;
+            right: 20px;
+        }
+
+        .comparison-card h4 {
+            color: #1e40af;
+            font-size: 1.25em;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .comparison-card h4 i {
+            margin-right: 12px;
+            color: #3b82f6;
+            font-size: 1.3em;
+        }
+
+        /* 強調テキスト */
+        .emphasis {
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .emphasis-large {
+            font-size: 1.35em;
+            font-weight: 700;
+            color: #1e40af;
+            display: block;
+            margin: 30px 0;
+            padding: 25px;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border-radius: 12px;
+            border-left: 5px solid #3b82f6;
+        }
+
+        /* 警告ボックス */
+        .warning-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 5px solid #f59e0b;
+            margin: 35px 0;
+        }
+
+        .warning-box h3 {
+            color: #92400e;
+            font-size: 1.4em;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .warning-box h3 i {
+            margin-right: 12px;
+            color: #f59e0b;
+        }
+
+        /* 成功ボックス */
+        .success-box {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 5px solid #10b981;
+            margin: 35px 0;
+        }
+
+        .success-box h3 {
+            color: #064e3b;
+            font-size: 1.4em;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .success-box h3 i {
+            margin-right: 12px;
+            color: #10b981;
+        }
+
+        /* リスト */
+        .styled-list {
+            list-style: none;
+            padding: 0;
+            margin: 25px 0;
+        }
+
+        .styled-list li {
+            padding: 18px 20px 18px 55px;
+            margin-bottom: 15px;
+            background: #f8fafc;
+            border-radius: 12px;
+            position: relative;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .styled-list li:hover {
+            background: #e0f2fe;
+            transform: translateX(8px);
+            border-left-color: #3b82f6;
+        }
+
+        .styled-list li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            color: #2563eb;
+            font-size: 1.15em;
+        }
+
+        /* 情報源 */
+        .sources {
+            background: linear-gradient(135deg, #f8fafc 0%, #e5e7eb 100%);
+            padding: 50px;
+            border-radius: 20px;
+            margin-top: 70px;
+            border: 3px solid #cbd5e1;
+        }
+
+        .sources h3 {
+            color: #1e40af;
+            font-size: 1.6em;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .sources h3 i {
+            margin-right: 18px;
+        }
+
+        .source-link {
+            display: block;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 18px;
+            color: #2563eb;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid #e5e7eb;
+            font-weight: 500;
+        }
+
+        .source-link:hover {
+            background: #eff6ff;
+            border-color: #3b82f6;
+            transform: translateX(8px);
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+        }
+
+        .source-link i {
+            margin-right: 12px;
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .header .tagline {
+                font-size: 1.1em;
+            }
+
+            .section {
+                padding: 40px 25px;
+            }
+
+            .section-title {
+                font-size: 1.6em;
+            }
+
+            .shocking-stat .number {
+                font-size: 3em;
+            }
+
+            .three-phases {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                text-align: left;
+                padding-left: 70px;
+                padding-right: 20px;
+            }
+
+            .timeline-dot {
+                left: 25px;
+                transform: translateX(0);
+            }
+
+            .timeline::before {
+                left: 25px;
+                transform: translateX(0);
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .study-stat-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* アニメーション */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section {
+            animation: fadeInUp 0.7s ease-out;
+        }
+
+        /* フッター */
+        .footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: #64748b;
+            font-size: 0.95em;
+            margin-top: 40px;
+        }
+
+        .footer-highlight {
+            font-size: 1.2em;
+            color: #2563eb;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー -->
+        <div class="header">
+            <div class="header-content">
+                <div class="header-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h1>自閉症の男女比の真実</h1>
+                <p class="tagline">276万人・35年間の追跡研究が明かした驚愕の事実</p>
+                <p class="study-info">The BMJ, February 2026 | Caroline Fyfe et al.</p>
+            </div>
+        </div>
+
+        <!-- セクション1: 衝撃的な発見 -->
+        <div class="section blue-accent">
+            <div class="section-header">
+                <div class="section-icon blue">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h2 class="section-title">衝撃的な発見から始まる</h2>
+            </div>
+
+            <div class="shocking-stat">
+                <span class="number">1:1</span>
+                <div class="label">20歳までに男女比はほぼ同等に</div>
+                <p class="description">
+                    「自閉症は男性に4倍多い」という定説を覆す、276万人を追跡した史上最大規模の研究が明らかにした真実
+                </p>
+            </div>
+
+            <p style="font-size: 1.15em; margin: 30px 0; line-height: 2;">
+                2026年2月、医学誌BMJに発表された研究が、自閉症スペクトラム障害（ASD）に関する私たちの理解を根本から揺るがしました。
+            </p>
+
+            <div class="highlight-box">
+                <h3><i class="fas fa-lightbulb"></i> この研究が特別な理由</h3>
+                <ul class="styled-list">
+                    <li><strong>規模：</strong> 2,756,779人（約276万人）という前例のないサンプルサイズ</li>
+                    <li><strong>期間：</strong> 1985年から2020年生まれを2022年まで追跡（最長37年）</li>
+                    <li><strong>手法：</strong> 前向きコホート研究 - 過去を振り返るのではなく、リアルタイムで記録</li>
+                    <li><strong>発見：</strong> 78,522人（2.8%）がASDと診断され、男女比の劇的な変化を発見</li>
+                </ul>
+            </div>
+
+            <span class="emphasis-large">
+                <i class="fas fa-quote-left" style="opacity: 0.3; margin-right: 10px;"></i>
+                この研究は、何十万人もの女性が適切な診断を受けていない可能性を示唆しています。
+                <i class="fas fa-quote-right" style="opacity: 0.3; margin-left: 10px;"></i>
+            </span>
+        </div>
+
+        <!-- セクション2: 見過ごされてきた歴史 -->
+        <div class="section orange-accent">
+            <div class="section-header">
+                <div class="section-icon orange">
+                    <i class="fas fa-eye-slash"></i>
+                </div>
+                <h2 class="section-title">見えていなかったもの</h2>
+            </div>
+
+            <h3 class="section-subtitle">「男性4:女性1」という神話の誕生</h3>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">1943-1944年</div>
+                        <p><strong>レオ・カナーとハンス・アスペルガー</strong>が自閉症を最初に記述。観察された子どもの多くが男児だったことから、「男性に多い」という印象が形成される。当時の診断は非常に限定的で、重度の症例のみが対象。</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">1970-1990年代</div>
+                        <p>初期の疫学研究が<strong>「男性4:女性1」</strong>という比率を報告。この数字が医学の定説として広まり、診断基準や研究の焦点が男性中心になる。女性の自閉症は「例外」として扱われる。</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2000-2010年代</div>
+                        <p>診断基準が整備され、より多くの症例が診断されるようになるが、男女比の「定説」は変わらず。しかし、<strong>女性の自閉症の特徴</strong>（社会的カモフラージュ、異なる表現形）が研究者の注目を集め始める。</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2013年以降</div>
+                        <p><strong>DSM-5の改定</strong>により、自閉症スペクトラムの概念が拡大。女性に多い軽度の症例や異なる表現型も含まれるように。医療者の認識が徐々に変化し始める。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="problem-box">
+                <h3><i class="fas fa-user-injured"></i> 女性の自閉症が見過ごされた理由</h3>
+                <div class="accordion" style="margin-top: 25px;">
+                    <div class="accordion-item active">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-masks-theater"></i> 社会的カモフラージュ（マスキング）</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                女性は社会的期待に応えるため、自閉症の特性を「隠す」能力が高い傾向があります。これは意識的・無意識的に行われ、以下のような行動を含みます：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>他者の行動を観察し、模倣することで社会的場面を乗り切る</li>
+                                <li>目を見て話す練習をする（実際は苦痛を感じている）</li>
+                                <li>困難を感じていても、それを表に出さない</li>
+                                <li>内面的に極度のストレスを抱えながらも、表面的には「普通」に振る舞う</li>
+                            </ul>
+                            <p style="margin-top: 15px; font-weight: 600; color: #dc2626;">
+                                結果：医療者は表面的な行動しか見ず、内面の苦悩に気づかない
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-brain"></i> 診断基準の男性バイアス</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                歴史的に、自閉症の診断基準は主に男児の研究から作られました：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li><strong>特定の興味：</strong> 診断基準は「電車」「恐竜」など男児に典型的な興味を想定。女児の興味（動物、芸術、人間関係）は「普通」に見える</li>
+                                <li><strong>行動の表現：</strong> 多動や攻撃性など外向的な行動は気づかれやすいが、内向的な不安や抑うつは見逃されやすい</li>
+                                <li><strong>社会的スキル：</strong> 女性は社会的期待により、表面的なスキルを獲得しやすく、「問題ない」と判断される</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-user-doctor"></i> 医療者の認識バイアス</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                「自閉症は男性の疾患」という思い込みが、診断に大きな影響を与えました：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>同じ症状でも、男児では「自閉症の可能性」、女児では「内気な性格」と解釈される</li>
+                                <li>女児の場合、より重度の症状がないと自閉症とは考えられない</li>
+                                <li>思春期以降の女性は「不安障害」「境界性パーソナリティ障害」などと誤診されやすい</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 次のセクションへ続く... -->
+
+        <!-- セクション3: 研究の設計 -->
+        <div class="section purple-accent">
+            <div class="section-header">
+                <div class="section-icon purple">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h2 class="section-title">なぜこの研究が特別なのか</h2>
+            </div>
+
+            <h3 class="section-subtitle">前例のない規模と厳密さ</h3>
+
+            <div class="study-design">
+                <h4 style="text-align: center; color: #1e40af; font-size: 1.5em; margin-bottom: 35px;">
+                    <i class="fas fa-chart-network"></i> 研究の全体像
+                </h4>
+
+                <div class="study-stat-grid">
+                    <div class="study-stat">
+                        <span class="study-stat-number">2,756,779</span>
+                        <div class="study-stat-label">追跡対象者数</div>
+                    </div>
+
+                    <div class="study-stat">
+                        <span class="study-stat-number">35年</span>
+                        <div class="study-stat-label">追跡期間</div>
+                    </div>
+
+                    <div class="study-stat">
+                        <span class="study-stat-number">78,522</span>
+                        <div class="study-stat-label">ASD診断者数</div>
+                    </div>
+
+                    <div class="study-stat">
+                        <span class="study-stat-number">2.8%</span>
+                        <div class="study-stat-label">全体の診断率</div>
+                    </div>
+                </div>
+
+                <div class="accordion" style="margin-top: 35px;">
+                    <div class="accordion-item active">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-database"></i> スウェーデンのレジストリシステム</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                この研究の強みは、<span class="emphasis">スウェーデンの国民レジストリシステム</span>にあります：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li><strong>医療出生登録：</strong> すべての出生が自動的に記録され、個人識別番号が付与される</li>
+                                <li><strong>患者登録：</strong> すべての入院・外来診療が記録される（1997年から外来も含む）</li>
+                                <li><strong>完全性：</strong> 全国民の99%以上をカバー、転居や死亡も追跡可能</li>
+                                <li><strong>信頼性：</strong> 診断の正確性が高く、国際的に評価されるデータ品質</li>
+                            </ul>
+                            <p style="margin-top: 15px; padding: 15px; background: #eff6ff; border-radius: 8px;">
+                                <i class="fas fa-info-circle" style="color: #3b82f6; margin-right: 8px;"></i>
+                                <strong>注意点：</strong> 2001年以前は外来データがないため、早期コホートの診断年齢はやや遅れている可能性があります。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-microscope"></i> Age-Period-Cohort分析とは</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                この研究の核心は、<span class="tooltip-term">Age-Period-Cohort（APC）分析
+                                    <span class="tooltip-text">年齢（Age）、暦年（Period）、出生コホート（Cohort）の3つの時間軸を統計的に分離して分析する手法。これにより、各要因の独立した効果を推定できます。</span>
+                                </span>という統計手法です：
+                            </p>
+                            
+                            <div style="background: white; padding: 25px; border-radius: 12px; margin: 20px 0;">
+                                <h5 style="color: #1e40af; margin-bottom: 15px; font-size: 1.1em;">3つの時間軸</h5>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="background: #dbeafe; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                                        <strong style="color: #1e40af;">1. 年齢効果（Age）</strong><br>
+                                        <span style="font-size: 0.95em;">何歳で診断されやすいか？ → 男性10-14歳、女性15-19歳にピーク</span>
+                                    </div>
+                                    <div style="background: #fef3c7; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+                                        <strong style="color: #92400e;">2. 暦年効果（Period）</strong><br>
+                                        <span style="font-size: 0.95em;">診断が行われた年による影響は？ → 診断基準や認識の変化</span>
+                                    </div>
+                                    <div style="background: #d1fae5; padding: 15px; border-radius: 8px;">
+                                        <strong style="color: #064e3b;">3. 出生コホート効果（Cohort）</strong><br>
+                                        <span style="font-size: 0.95em;">生まれた年による影響は？ → 出生前後の環境要因</span>
+                                    </div>
+                                </div>
+                                <p style="font-size: 0.95em; color: #64748b; margin-top: 15px;">
+                                    <i class="fas fa-lightbulb" style="color: #f59e0b;"></i> 
+                                    <strong>なぜ重要？</strong> これらの効果は互いに絡み合っているため、統計的に分離しないと正確な結論が得られません。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-forward"></i> 前向きコホート研究の威力</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                「前向き（prospective）研究」と「後ろ向き（retrospective）研究」の違い：
+                            </p>
+                            <div class="comparison-grid" style="margin-top: 20px;">
+                                <div style="background: #d1fae5; padding: 20px; border-radius: 10px; border-left: 4px solid #10b981;">
+                                    <h5 style="color: #064e3b; margin-bottom: 12px;">✓ 前向き研究</h5>
+                                    <ul style="font-size: 0.95em; line-height: 1.8;">
+                                        <li>現在から未来へデータ収集</li>
+                                        <li>記憶に頼らない</li>
+                                        <li>診断基準が統一</li>
+                                        <li>バイアスが少ない</li>
+                                    </ul>
+                                </div>
+                                <div style="background: #fee2e2; padding: 20px; border-radius: 10px; border-left: 4px solid #dc2626;">
+                                    <h5 style="color: #7f1d1d; margin-bottom: 12px;">✗ 後ろ向き研究</h5>
+                                    <ul style="font-size: 0.95em; line-height: 1.8;">
+                                        <li>過去を振り返る</li>
+                                        <li>記憶の曖昧さ</li>
+                                        <li>記録の不完全さ</li>
+                                        <li>思い出しバイアス</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- セクション4: 3段階の発見 -->
+        <div class="section green-accent">
+            <div class="section-header">
+                <div class="section-icon green">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h2 class="section-title">データが語る3段階の真実</h2>
+            </div>
+
+            <p style="font-size: 1.15em; margin-bottom: 35px;">
+                年齢を追って男女比を分析すると、<span class="emphasis">驚くべき3段階のパターン</span>が浮かび上がりました。
+            </p>
+
+            <div class="three-phases">
+                <div class="phase-card phase-1">
+                    <div class="phase-number">1</div>
+                    <div class="phase-title">幼児期</div>
+                    <div class="phase-age">0-10歳</div>
+                    <span class="phase-ratio">3-4 : 1</span>
+                    <p>
+                        10歳未満では、男女比は<strong>約3〜4:1で比較的安定</strong>。従来の定説に近い数字。この時期の男児は目立つ行動特性により早期に診断される傾向。
+                    </p>
+                </div>
+
+                <div class="phase-card phase-2">
+                    <div class="phase-number">2</div>
+                    <div class="phase-title">思春期</div>
+                    <div class="phase-age">10-20歳</div>
+                    <span class="phase-ratio">急激な変化</span>
+                    <p>
+                        思春期に<strong>"female catch-up effect"</strong>が発生。女性の診断が急増し、男女比が劇的に縮小。この10年間で女性の診断率が男性に追いつく。
+                    </p>
+                </div>
+
+                <div class="phase-card phase-3">
+                    <div class="phase-number">3</div>
+                    <div class="phase-title">成人期</div>
+                    <div class="phase-age">20歳以降</div>
+                    <span class="phase-ratio">≒ 1 : 1</span>
+                    <p>
+                        20歳を過ぎると男女比は<strong>ほぼ1:1</strong>に。スウェーデンでは成人期に性差が「区別できなくなる」レベルまで収束。真の有病率は同等の可能性。
+                    </p>
+                </div>
+            </div>
+
+            <div class="data-viz">
+                <div class="data-viz-title">
+                    <i class="fas fa-chart-bar"></i>
+                    年齢別の男女診断率（2020-2022年のデータ）
+                </div>
+
+                <div class="age-chart">
+                    <div class="age-group">
+                        <div class="age-label">
+                            <span><i class="fas fa-child"></i> 5-9歳</span>
+                            <span class="ratio-badge">男女比 3.5:1</span>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">男性</div>
+                            <div class="bar bar-male" style="width: 78%;">
+                                <span>約550 / 10万人年</span>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">女性</div>
+                            <div class="bar bar-female" style="width: 22%;">
+                                <span>約160 / 10万人年</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="age-group">
+                        <div class="age-label">
+                            <span><i class="fas fa-user"></i> 10-14歳（男性のピーク）</span>
+                            <span class="ratio-badge">男女比 2.8:1</span>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">男性</div>
+                            <div class="bar bar-male" style="width: 95%;">
+                                <span>645.5 / 10万人年 ⬆ ピーク</span>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">女性</div>
+                            <div class="bar bar-female" style="width: 34%;">
+                                <span>約230 / 10万人年</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="age-group">
+                        <div class="age-label">
+                            <span><i class="fas fa-user-graduate"></i> 15-19歳（女性のピーク）</span>
+                            <span class="ratio-badge">男女比 1.7:1</span>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">男性</div>
+                            <div class="bar bar-male" style="width: 82%;">
+                                <span>約550 / 10万人年</span>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">女性</div>
+                            <div class="bar bar-female" style="width: 89%;">
+                                <span>602.6 / 10万人年 ⬆ ピーク</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="age-group">
+                        <div class="age-label">
+                            <span><i class="fas fa-user-tie"></i> 20-24歳</span>
+                            <span class="ratio-badge" style="background: linear-gradient(135deg, #10b981, #059669);">男女比 ≒1:1</span>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">男性</div>
+                            <div class="bar bar-male" style="width: 48%;">
+                                <span>約320 / 10万人年</span>
+                            </div>
+                        </div>
+                        <div class="bar-row">
+                            <div class="bar-row-label">女性</div>
+                            <div class="bar bar-female" style="width: 45%;">
+                                <span>約310 / 10万人年</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 35px; padding: 25px; background: white; border-radius: 12px;">
+                    <h4 style="color: #1e40af; margin-bottom: 15px;">
+                        <i class="fas fa-key"></i> データから読み取れること
+                    </h4>
+                    <ul class="styled-list">
+                        <li>男性は10-14歳で診断のピークを迎えるが、女性のピークは<strong>5年遅れて15-19歳</strong></li>
+                        <li>女性の診断率は思春期に急上昇し、男性の最高値に匹敵する<strong>602.6/10万人年</strong>に達する</li>
+                        <li>20歳を過ぎると両性とも診断率は低下するが、<strong>累積診断率は同等</strong>に</li>
+                        <li>この変化は「女性が後から追いつく」パターンを明確に示している</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- セクション5: Female Catch-up Effectの深掘り -->
+        <div class="section orange-accent">
+            <div class="section-header">
+                <div class="section-icon orange">
+                    <i class="fas fa-magnifying-glass-chart"></i>
+                </div>
+                <h2 class="section-title">Female Catch-up Effectとは何か</h2>
+            </div>
+
+            <div class="highlight-box">
+                <h3><i class="fas fa-lightbulb"></i> "Female Catch-up Effect"の定義</h3>
+                <p style="font-size: 1.1em; line-height: 2;">
+                    思春期（10-20歳）に女性の自閉症診断が<span class="emphasis">急激に増加</span>し、幼児期に見られた大きな男女差が<span class="emphasis">縮小・消失</span>していく現象。この研究で初めて大規模データにより定量的に実証されました。
+                </p>
+            </div>
+
+            <h3 class="section-subtitle">なぜ女性は遅れて診断されるのか</h3>
+
+            <div class="comparison-grid">
+                <div class="comparison-card">
+                    <h4><i class="fas fa-dna"></i> 生物学的要因？</h4>
+                    <p style="margin-top: 15px;">
+                        <strong>「女性保護効果」仮説：</strong> 女性は遺伝的に自閉症に対する保護要因を持ち、症状が現れるには<strong>より多くの遺伝的負荷</strong>が必要かもしれない。そのため、症状の発現や認識が遅れる可能性。
+                    </p>
+                    <p style="margin-top: 10px; font-size: 0.95em; color: #64748b;">
+                        <i class="fas fa-flask"></i> しかし、この仮説だけでは思春期の急激な変化を説明できない
+                    </p>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-masks-theater"></i> マスキングの影響</h4>
+                    <p style="margin-top: 15px;">
+                        幼少期は親や教師が支援するため、マスキングで乗り切れる。しかし<strong>思春期</strong>になると：
+                    </p>
+                    <ul style="margin-top: 12px; font-size: 0.95em; line-height: 1.8;">
+                        <li>社会的要求が複雑化（友人関係、恋愛）</li>
+                        <li>マスキングの疲労が限界に</li>
+                        <li>二次的な不安・抑うつが顕在化</li>
+                        <li>本人または周囲が「何かおかしい」と気づく</li>
+                    </ul>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-eye"></i> 診断者の認識変化</h4>
+                    <p style="margin-top: 15px;">
+                        2000年代以降、女性の自閉症への認識が向上：
+                    </p>
+                    <ul style="margin-top: 12px; font-size: 0.95em; line-height: 1.8;">
+                        <li>研究の蓄積により特徴が明確に</li>
+                        <li>医療者の教育プログラムの充実</li>
+                        <li>保護者・教育者の理解向上</li>
+                        <li>メディアでの啓発活動</li>
+                    </ul>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-book-medical"></i> 診断基準の進化</h4>
+                    <p style="margin-top: 15px;">
+                        <strong>DSM-5（2013年）</strong>の影響：
+                    </p>
+                    <ul style="margin-top: 12px; font-size: 0.95em; line-height: 1.8;">
+                        <li>自閉症スペクトラムの概念拡大</li>
+                        <li>軽度の症例も含まれるように</li>
+                        <li>女性に多い表現型への配慮</li>
+                        <li>感覚過敏など新たな基準追加</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="problem-box" style="margin-top: 40px;">
+                <h3><i class="fas fa-heartbeat"></i> 診断の遅れがもたらす代償</h3>
+                <p style="margin-bottom: 20px; font-size: 1.05em;">
+                    思春期まで診断されないことは、単なる「遅れ」以上の深刻な影響をもたらします：
+                </p>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-stethoscope"></i> 誤診のカスケード</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                自閉症が見逃されると、二次的な症状に対して<strong>誤った診断</strong>がなされることが多い：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li><strong>不安障害：</strong> 社会的場面での過度なストレス</li>
+                                <li><strong>抑うつ：</strong> マスキングの疲弊と孤立感</li>
+                                <li><strong>摂食障害：</strong> 自閉症女性に多いとされる（特に拒食症）</li>
+                                <li><strong>境界性パーソナリティ障害：</strong> 感情調整の困難さの誤解</li>
+                                <li><strong>ADHD：</strong> 注意や衝動性の問題の重複</li>
+                            </ul>
+                            <p style="margin-top: 15px; padding: 15px; background: #fee2e2; border-radius: 8px; color: #7f1d1d;">
+                                <i class="fas fa-exclamation-triangle" style="color: #dc2626;"></i>
+                                <strong>問題：</strong> 誤診に基づく治療は効果が限定的で、根本的な支援ニーズに応えられない
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-user-injured"></i> 自己理解の欠如</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                診断がないと、本人は自分の困難を<strong>「自分の性格の問題」</strong>と捉えがちです：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>「私は社交的になれない、ダメな人間だ」</li>
+                                <li>「なぜ他の人のように簡単にできないのか」</li>
+                                <li>自己評価の低下と自責感</li>
+                                <li>適切な対処戦略を学ぶ機会の喪失</li>
+                            </ul>
+                            <p style="margin-top: 15px; font-weight: 600; color: #059669;">
+                                <i class="fas fa-heart"></i>
+                                診断は「レッテル」ではなく「自己理解の鍵」です
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-skull-crossbones"></i> 自殺リスクの増加</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px; color: #7f1d1d; font-weight: 600;">
+                                これは最も深刻な問題です。研究によると：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>未診断の自閉症者は<strong>自殺念慮のリスクが有意に高い</strong>（Moseley et al., 2025）</li>
+                                <li>診断の遅れは孤立感と理解不足を増大させる</li>
+                                <li>特に女性は内面化しやすく、周囲が気づきにくい</li>
+                                <li>適切な支援を受けられず、危機的状況に陥る</li>
+                            </ul>
+                            <div style="margin-top: 20px; padding: 20px; background: #fee2e2; border-radius: 10px; border-left: 5px solid #dc2626;">
+                                <p style="color: #7f1d1d; font-weight: 600; margin-bottom: 10px;">
+                                    <i class="fas fa-phone"></i> もし困難を感じているなら
+                                </p>
+                                <p style="font-size: 0.95em; color: #991b1b;">
+                                    専門家や信頼できる人に相談してください。診断の有無に関わらず、あなたの困難は real（本物）であり、支援を受ける価値があります。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- セクション6: 臨床的インパクト -->
+        <div class="section blue-accent">
+            <div class="section-header">
+                <div class="section-icon blue">
+                    <i class="fas fa-hospital"></i>
+                </div>
+                <h2 class="section-title">医療と社会への影響</h2>
+            </div>
+
+            <div class="shocking-stat" style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-color: #2563eb;">
+                <span class="number" style="color: #1e40af;">数十万人</span>
+                <div class="label" style="color: #1e3a8a;">未診断の可能性がある女性</div>
+                <p class="description" style="color: #1e40af;">
+                    この研究が示唆するのは、歴史的に見逃されてきた膨大な数の女性が、今も適切な診断と支援を受けていない可能性です。
+                </p>
+            </div>
+
+            <h3 class="section-subtitle">推定される未診断者数</h3>
+
+            <p style="margin-bottom: 25px;">
+                スウェーデンの人口約1,000万人、ASD有病率2.8%として計算すると：
+            </p>
+
+            <div class="study-design">
+                <div class="study-stat-grid" style="grid-template-columns: repeat(2, 1fr);">
+                    <div class="study-stat">
+                        <span class="study-stat-number" style="color: #059669;">約140,000</span>
+                        <div class="study-stat-label">診断済みASD者（推定）</div>
+                    </div>
+                    <div class="study-stat">
+                        <span class="study-stat-number" style="color: #dc2626;">数万人</span>
+                        <div class="study-stat-label">未診断の女性（推定）</div>
+                    </div>
+                </div>
+                <p style="margin-top: 25px; text-align: center; font-size: 1.05em; color: #64748b;">
+                    特に30歳以上の女性で、幼少期に診断基準を満たしていても見過ごされた層が多数存在する可能性
+                </p>
+            </div>
+
+            <h3 class="section-subtitle">実践への応用</h3>
+
+            <div class="comparison-grid">
+                <div class="comparison-card">
+                    <h4><i class="fas fa-user-doctor"></i> 医療者の実践</h4>
+                    <ul style="margin-top: 15px; font-size: 0.95em; line-height: 1.9;">
+                        <li>女性の自閉症の特徴を学ぶ</li>
+                        <li>マスキングのサインを見逃さない</li>
+                        <li>思春期の女性の不安・抑うつには自閉症の可能性を考慮</li>
+                        <li>性別による診断閾値の違いを認識</li>
+                    </ul>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-chalkboard-teacher"></i> 教育現場</h4>
+                    <ul style="margin-top: 15px; font-size: 0.95em; line-height: 1.9;">
+                        <li>女児の「内気」「真面目」を額面通りに受け取らない</li>
+                        <li>社会的困難の隠れたサインに注意</li>
+                        <li>思春期の適応困難を早期発見</li>
+                        <li>保護者への情報提供と連携</li>
+                    </ul>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-user-friends"></i> 当事者・家族</h4>
+                    <ul style="margin-top: 15px; font-size: 0.95em; line-height: 1.9;">
+                        <li>女性の自閉症への理解を深める</li>
+                        <li>思春期の困難は「甘え」ではない</li>
+                        <li>診断を受けることの価値を知る</li>
+                        <li>ピアサポートグループの活用</li>
+                    </ul>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-landmark"></i> 政策立案者</h4>
+                    <ul style="margin-top: 15px; font-size: 0.95em; line-height: 1.9;">
+                        <li>女性特異的なスクリーニングツールの開発</li>
+                        <li>思春期・成人期の診断体制整備</li>
+                        <li>医療者教育プログラムの充実</li>
+                        <li>未診断成人への支援制度</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- セクション7: 専門家の評価 -->
+        <div class="section purple-accent">
+            <div class="section-header">
+                <div class="section-icon purple">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h2 class="section-title">専門家はどう評価したか</h2>
+            </div>
+
+            <div class="success-box">
+                <h3><i class="fas fa-thumbs-up"></i> 高い評価を受けた理由</h3>
+                <ul class="styled-list">
+                    <li><strong>David Mandell（ペンシルバニア大学）：</strong> 「35年間という期間と膨大なデータセットが強み。興味深く、よくできた研究」</li>
+                    <li><strong>Gina Rippon（アストン大学）：</strong> 「強力で堅実。スカンジナビアらしい厳密な研究で、データは驚くほど信頼性が高い」</li>
+                    <li><strong>Laura Hull（研究者）：</strong> 「女性の遅い診断と成人期の'追いつき効果'を正確に反映。歓迎すべき、率直に言って驚きではない発見」</li>
+                </ul>
+            </div>
+
+            <h3 class="section-subtitle">重要な限界と注意点</h3>
+
+            <div class="warning-box">
+                <h3><i class="fas fa-triangle-exclamation"></i> 研究の限界</h3>
+                <div class="accordion" style="margin-top: 20px;">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-globe"></i> 地域特性の問題</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                この研究はスウェーデンのみを対象としています：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>スウェーデンは医療アクセスが良好で、レジストリシステムが発達</li>
+                                <li>他国では診断体制や社会的認識が異なる可能性</li>
+                                <li>特に英国や米国ではより断片的な診断経路で、格差が大きいかもしれない</li>
+                                <li>文化的要因（女性の役割期待など）も影響する可能性</li>
+                            </ul>
+                            <p style="margin-top: 15px; font-style: italic; color: #92400e;">
+                                → 国際的な追試が必要
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-puzzle-piece"></i> 併存疾患の未考慮</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                この研究は自閉症単独の分析で、以下を考慮していません：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li><strong>ADHD：</strong> 自閉症と高い併存率、特に女性で多い</li>
+                                <li><strong>知的障害：</strong> 診断のしやすさに影響</li>
+                                <li><strong>不安・抑うつ：</strong> 二次的な症状が診断を複雑化</li>
+                            </ul>
+                            <p style="margin-top: 15px; font-style: italic; color: #92400e;">
+                                → これらの要因が診断年齢にどう影響するかは不明
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-chart-line"></i> 診断 vs 真の有病率</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="margin-bottom: 15px;">
+                                この研究が示すのは<strong>診断された</strong>人の比率であり、真の有病率ではありません：
+                            </p>
+                            <ul style="line-height: 1.9;">
+                                <li>診断を受けていないが自閉症特性を持つ人は含まれない</li>
+                                <li>特に高齢のコホートでは、当時の診断基準では見逃された可能性</li>
+                                <li>研究者も「conservative estimate（控えめな推定）」と認識</li>
+                            </ul>
+                            <p style="margin-top: 15px; font-weight: 600; color: #92400e;">
+                                → 真の男女比は、この研究が示すよりさらに1:1に近い可能性
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h4><i class="fas fa-database"></i> データの制約</h4>
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <ul style="line-height: 1.9;">
+                                <li>2001年以前は外来データがないため、早期コホートの診断年齢はやや過大評価の可能性</li>
+                                <li>遺伝的要因や環境要因（親の年齢、妊娠合併症など）は分析されていない</li>
+                                <li>診断医の性別や専門性による影響は不明</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 40px;">
+                <h3><i class="fas fa-balance-scale"></i> バランスの取れた見方</h3>
+                <p style="font-size: 1.05em; line-height: 2;">
+                    これらの限界は研究の価値を損なうものではありません。むしろ、<span class="emphasis">今後の研究の方向性を示す重要な指摘</span>です。現時点での最善のエビデンスとして、臨床実践や政策に活かしながら、さらなる検証を続けていくことが重要です。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション8: 意義と展望 -->
+        <div class="section green-accent">
+            <div class="section-header">
+                <div class="section-icon green">
+                    <i class="fas fa-road"></i>
+                </div>
+                <h2 class="section-title">この研究が変えるもの</h2>
+            </div>
+
+            <span class="emphasis-large">
+                <i class="fas fa-quote-left" style="opacity: 0.3; margin-right: 10px;"></i>
+                自閉症は男性の疾患ではない。女性は診断を受けるのに苦労しているだけだ。
+                <i class="fas fa-quote-right" style="opacity: 0.3; margin-left: 10px;"></i>
+            </span>
+
+            <h3 class="section-subtitle">5つの重要なメッセージ</h3>
+
+            <div style="background: linear-gradient(135deg, #f8fafc 0%, #e5e7eb 100%); padding: 40px; border-radius: 20px; margin: 35px 0;">
+                <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #3b82f6;">
+                    <h4 style="color: #2563eb; margin-bottom: 12px; display: flex; align-items: center;">
+                        <span style="display: inline-block; width: 40px; height: 40px; background: #3b82f6; color: white; border-radius: 50%; text-align: center; line-height: 40px; margin-right: 15px; font-size: 1.3em;">1</span>
+                        定説は変わりうる
+                    </h4>
+                    <p style="margin-left: 55px; color: #475569;">
+                        「男女比4:1」という長年の定説は、診断実践の変化により劇的に変わりつつあります。科学的理解は常に進化するものであり、私たちは柔軟に対応する必要があります。
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #f97316;">
+                    <h4 style="color: #ea580c; margin-bottom: 12px; display: flex; align-items: center;">
+                        <span style="display: inline-block; width: 40px; height: 40px; background: #f97316; color: white; border-radius: 50%; text-align: center; line-height: 40px; margin-right: 15px; font-size: 1.3em;">2</span>
+                        女性の診断の遅れは深刻な問題
+                    </h4>
+                    <p style="margin-left: 55px; color: #475569;">
+                        思春期まで診断されないことは、誤診、自己理解の欠如、メンタルヘルスの悪化など、深刻な結果をもたらします。早期発見と適切な支援が不可欠です。
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #a855f7;">
+                    <h4 style="color: #9333ea; margin-bottom: 12px; display: flex; align-items: center;">
+                        <span style="display: inline-block; width: 40px; height: 40px; background: #a855f7; color: white; border-radius: 50%; text-align: center; line-height: 40px; margin-right: 15px; font-size: 1.3em;">3</span>
+                        ビッグデータの力
+                    </h4>
+                    <p style="margin-left: 55px; color: #475569;">
+                        276万人という規模と35年という期間により、初めて時間軸を分離した厳密な分析が可能になりました。質の高いレジストリシステムの価値が実証されました。
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #10b981;">
+                    <h4 style="color: #059669; margin-bottom: 12px; display: flex; align-items: center;">
+                        <span style="display: inline-block; width: 40px; height: 40px; background: #10b981; color: white; border-radius: 50%; text-align: center; line-height: 40px; margin-right: 15px; font-size: 1.3em;">4</span>
+                        実践への応用が鍵
+                    </h4>
+                    <p style="margin-left: 55px; color: #475569;">
+                        研究結果を医療現場、教育現場、政策に活かすことが重要です。特に女性の自閉症の特徴を学び、思春期のスクリーニングを強化する必要があります。
+                    </p>
+                </div>
+
+                <div style="background: white; padding: 30px; border-radius: 15px; border-left: 5px solid #eab308;">
+                    <h4 style="color: #ca8a04; margin-bottom: 12px; display: flex; align-items: center;">
+                        <span style="display: inline-block; width: 40px; height: 40px; background: #eab308; color: white; border-radius: 50%; text-align: center; line-height: 40px; margin-right: 15px; font-size: 1.3em;">5</span>
+                        さらなる研究が必要
+                    </h4>
+                    <p style="margin-left: 55px; color: #475569;">
+                        なぜ女性は遅れるのか、他国でも同様か、どう支援すべきかなど、答えるべき問いは山積しています。この研究は終わりではなく、新たな始まりです。
+                    </p>
+                </div>
+            </div>
+
+            <h3 class="section-subtitle">今後の研究課題</h3>
+
+            <div class="comparison-grid">
+                <div class="comparison-card">
+                    <h4><i class="fas fa-globe-americas"></i> 国際的な検証</h4>
+                    <p style="margin-top: 15px; font-size: 0.95em;">
+                        他国でも同様のパターンが見られるか？ 特に診断体制が異なる国での検証が必要。
+                    </p>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-brain"></i> メカニズムの解明</h4>
+                    <p style="margin-top: 15px; font-size: 0.95em;">
+                        なぜ女性は思春期に診断されるのか？ 生物学的・社会的要因の相互作用を解明する。
+                    </p>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-tools"></i> 支援方法の開発</h4>
+                    <p style="margin-top: 15px; font-size: 0.95em;">
+                        女性特異的なスクリーニングツールや支援プログラムの開発と効果検証。
+                    </p>
+                </div>
+
+                <div class="comparison-card">
+                    <h4><i class="fas fa-history"></i> 未診断成人の調査</h4>
+                    <p style="margin-top: 15px; font-size: 0.95em;">
+                        現在30歳以上で未診断の女性の実態把握と支援体制の構築。
+                    </p>
+                </div>
+            </div>
+
+            <div class="success-box" style="margin-top: 40px;">
+                <h3><i class="fas fa-heart"></i> 最後に</h3>
+                <p style="font-size: 1.1em; line-height: 2;">
+                    この研究は、何十万人もの女性が「自分は一人ではない」「自分の困難は本物だ」と理解する助けとなります。診断は終わりではなく、<span class="emphasis">自己理解と適切な支援への第一歩</span>です。私たち全員が、より公平で包括的な社会を作る責任があります。
+                </p>
+            </div>
+        </div>
+
+        <!-- 情報源 -->
+        <div class="sources">
+            <h3><i class="fas fa-link"></i> さらに詳しく知りたい方へ</h3>
+            <p style="margin-bottom: 30px; color: #64748b; font-size: 1.05em;">
+                以下のリンクから、より詳細な情報や関連研究にアクセスできます：
+            </p>
+
+            <a href="https://www.bmj.com/content/392/bmj-2025-084164" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-medical"></i> 
+                <strong>原著論文（BMJ）:</strong> Time trends in the male to female ratio for autism incidence: population based, prospectively collected, birth cohort study
+            </a>
+
+            <a href="https://www.scientificamerican.com/article/women-and-men-are-almost-equally-as-likely-to-be-diagnosed-as-autistic-by/" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-newspaper"></i>
+                <strong>Scientific American:</strong> Women and Men Are Almost Equally as Likely to Be Diagnosed as Autistic by Adulthood
+            </a>
+
+            <a href="https://www.sciencemediacentre.org/expert-reaction-to-study-looking-at-time-trends-in-male-to-female-ratio-for-autism-diagnosis/" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-comments"></i>
+                <strong>Science Media Centre:</strong> Expert Reaction to Study on Male-to-Female Ratio for Autism Diagnosis
+            </a>
+
+            <a href="https://pubmed.ncbi.nlm.nih.gov/41638711/" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-book-medical"></i>
+                <strong>PubMed:</strong> 研究の詳細情報とアブストラクト
+            </a>
+
+            <a href="https://www.autism.org.uk/" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-users"></i>
+                <strong>National Autistic Society:</strong> 自閉症の理解と支援に関する包括的リソース
+            </a>
+
+            <a href="https://www.cdc.gov/ncbddd/autism/index.html" class="source-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-globe"></i>
+                <strong>CDC:</strong> 自閉症スペクトラムに関する公式情報
+            </a>
+
+            <div style="margin-top: 35px; padding: 30px; background: white; border-radius: 15px; border: 2px solid #cbd5e1;">
+                <p style="color: #64748b; font-size: 0.95em; line-height: 1.8;">
+                    <i class="fas fa-info-circle" style="color: #3b82f6; margin-right: 10px;"></i>
+                    <strong>重要な注意事項：</strong> このインフォグラフィックは教育目的で作成されており、医療アドバイスの代替とはなりません。自閉症に関する診断や支援については、必ず医療専門家にご相談ください。
+                </p>
+            </div>
+        </div>
+
+        <!-- フッター -->
+        <div class="footer">
+            <div class="footer-highlight">
+                <i class="fas fa-brain"></i> 科学的理解は常に進化しています
+            </div>
+            <p>Created by 岡村雄一郎 | Based on Fyfe et al., BMJ 2026</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                KBC（Kizuki Business College）就労移行支援事業 スタッフ教育資料
+            </p>
+        </div>
+        
+    </div>
+
+    <script>
+        // アコーディオンの開閉
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const wasActive = item.classList.contains('active');
+            
+            if (wasActive) {
+                item.classList.remove('active');
+            } else {
+                item.classList.add('active');
+            }
+        }
+
+        // ページロード時のアニメーション
+        document.addEventListener('DOMContentLoaded', function() {
+            // スクロールアニメーション
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(40px)';
+                section.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
+                observer.observe(section);
+            });
+
+            // バーのアニメーション
+            setTimeout(() => {
+                document.querySelectorAll('.bar').forEach(bar => {
+                    const width = bar.style.width;
+                    bar.style.width = '0';
+                    setTimeout(() => {
+                        bar.style.transition = 'width 1.2s ease';
+                        bar.style.width = width;
+                    }, 150);
+                });
+            }, 600);
+        });
+    </script>
+</body>
+</html>
